@@ -1,0 +1,11 @@
+@mixin margin($pixel) {
+    margin-left: $pixel;
+    margin-right: $pixel;
+}
+
+body {
+    @include margin(10px);
+}
+div {
+    @include margin(15px);
+}
